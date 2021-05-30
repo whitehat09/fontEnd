@@ -1,0 +1,29 @@
+arrs.forEach(function(arr){call back
+	console.log(arr);// hiện thị từng phần tử của mảng
+});
+
+var i = arrs.every(function(arr.index){call back
+	return course.coin ===0;// 
+}); trả về đúng hay sai ( đại lại như vòng lặp duyệt hết )
+
+some giống every nhưng chỉ cần 1 phần tử thoả mãn
+
+find() tìm kiếm ( tìm được 1 đối tượng )
+filter() lọc ( trả về tất cả phần tử thoả mãn)
+
+map() thì mỗi lần duyệt qua 1 phần thử gọi lại function
+nhằm sửa tạo mảng mới giữu mảng cũ
+
+const array1 = [1, 2, 3, 4];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+// 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer));
+// expected output: 10
+
+// 5 + 1 + 2 + 3 + 4
+console.log(array1.reduce(reducer, 5));
+// expected output: 15
+
+
+ 

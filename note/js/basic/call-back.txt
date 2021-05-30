@@ -1,0 +1,14 @@
+ tạo fun truyền vào đối số của fun khác
+được gọi lại trong hàm nhận đối số 
+
+foreach() dùng giống for in không care phần tử rỗng
+
+dùng hàm chạy sẵn để lồng vào hàm cũ 
+
+xử lý call back dùng promise ( lời hứa ) 
+
+lời hứa xử lý qua async awit
+
+
+
+

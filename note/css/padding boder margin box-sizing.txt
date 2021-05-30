@@ -1,0 +1,18 @@
+padding: 10px 10px; trên dưới
+3 tham số trên ( trái và phải ) dưới
+4 tham số trên  phải dưới trái
+
+border-width
+	border-top-width
+
+border-style
+border-color
+
+border: 10px solif #333;// độ dày kiểu màu
+
+.box{
+	width:100px;
+	padding:10p;
+	box-sizing: border-box; 
+// pick cứng độ dài box là 100 unset là huỷ
+}

@@ -1,0 +1,14 @@
+kq = "a" && 'b' && 'c' // kq = c 
+if (kq)
+giá trị nhận flase
+0
+ '' 
+null 
+undefinde
+ NaN 
+flase
+biến kq có 1 trong mấy cái trên nhận luôn vì điều kiện sai
+
+còn toán tử || ngược lại giá trị đầu khác flase lấy luôn
+
+điều kiện ? kq1 : kq2(ra khi khác dk 1 )

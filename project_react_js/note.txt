@@ -1,0 +1,9 @@
+npm i 
+npm install -g create-react-app
+cd my-app
+npm start
+npm i --save-dev node-sass
+
+npm i --save react-router-dom
+
+npm i --save reactstrap

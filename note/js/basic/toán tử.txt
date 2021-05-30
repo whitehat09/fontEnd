@@ -1,0 +1,7 @@
+++ --
+a++ // trả về giá trị a chưa cộng 1
+
+tiền tố là trước 
+++a // trả về giá trị đã cộng
+
+**= // toán tử luỹ thừa bằng

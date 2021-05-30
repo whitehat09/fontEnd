@@ -1,0 +1,38 @@
+background-clip: padding-box;
+// đổ màu từ padding border-box đổ màu từ border ....
+
+background-origin: padding-box;
+// đổ ảnh nền từ padding border-box đổ màu từ border ....
+
+background-image: url(địa chỉ ảnh1),
+		  url(địa chỉ ảnh2);
+ảnh viết trước sẽ được hiển thị bên trên
+
+background-image: linear-gradient(0deg,rgba(255,255,0,0.5),rgba(55,55,0,0.5)),url(địa chỉ ảnh1),
+		  url(địa chỉ ảnh2);
+linear-gradient (hướng xuay đơn vị độ, màu 1 ,màu 2)
+
+
+background-size: 10px 10px   ;
+// chiều dài | chiều rộng ( không có sẽ tự xét cái còn lại là auto )
+
+background-size:  contain ; lấy chiều dài nhất có thể 
+
+background-size:  cover ;
+ lấy chiều dài nhất có thể chấp nhận che khuất bức ảnh 
+
+'
+background-repeat: repeat-x; // chỉ lặp ngang
+background-repeat: repeat-y; // chỉ lặp dọc
+	           
+// ví dụ dài 100 xét cho size là 1 lặp 10 lần dùng no-repeat để chống lặp
+
+background-position: top right ; 
+background-position: top 20px right 20px; cách trên 20 và phải 20 
+background-position: 50px ; // ngang và dọc gốc toạ độ ở trên cùng tay trái
+// vị trí nền viết 1 tham số  thì tự hiểu center
+
+background: thuộc tính1 thuộc tính2 / contain;
+ // có / với background-size
+
+

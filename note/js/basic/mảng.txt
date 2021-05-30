@@ -1,0 +1,19 @@
+isArray() hàm kiểm tra
+
+a.toString() chuyển từ mảng sang chuỗi
+a.join('thêm kí tự ngăn cách')
+
+a.pop() lấy và xoá phần tử cuối cùng của mảng đó
+a.shift() lấy và xoá phần thử đầu tiên của mảng 
+
+a.push() thêm phần từ vào cuối mảng
+a.unShift() thêm phần từ vào cuối mảng
+
+splice thay đổi nội dung thêm phần tử mới trong khi gỡ bỏ thần tử cũ
+
+s.splice(2, 0, 'drum'); // chèn 'drum' vào vị trí 2 , xoá 0 phần tử
+s.splice(2, 1); // lấy 1 phần tử từ vị trí 2
+a1.concat(a2) // nối mảng a1 với a2
+
+a.slice(1,2)/ cắt thừ a đến b có 1 tham số thì cắt từ đó đến hết
+xuất mảng dùng for (var param of arr)

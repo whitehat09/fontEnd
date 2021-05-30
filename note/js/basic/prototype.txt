@@ -1,0 +1,1 @@
+prototype dùng được chung các hàm có sẵn

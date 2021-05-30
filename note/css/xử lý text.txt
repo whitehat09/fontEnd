@@ -1,0 +1,20 @@
+Xử lí chữ ra ngoài layouts
+p.test1 {
+  white-space: nowrap; 
+  width: 400px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip; 
+}
+
+p.test2 {
+  white-space: nowrap; 
+  width: 400px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+
+test 1 mất chữ thừa
+test 2 thêm ...

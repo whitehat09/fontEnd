@@ -1,0 +1,7 @@
+alert() hiện thị
+confirm() hiện thị có 2 nút xác nhận và huỷ 
+prompt() hiện và có 1 input nhập
+
+
+setTimeout(function(){},1000) chạy code sau 1s
+setInterval(function(){},1000) chạy code liên tục sau 1s 

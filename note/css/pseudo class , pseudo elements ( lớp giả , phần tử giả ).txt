@@ -1,0 +1,30 @@
+Lớp giả
+:root tham chiếu thần tử gốc thẻ html
+
+:hover sự thay đổi khi trỏ chuột
+
+:active thay đổi khi bấm chuột 
+
+:first-child tham chiếu đến phần tử con đầu tiên
+
+:last-child tham chiếu đến phần tử con cuối cùng
+
+------------------------------------------------------
+Phần tử giả
+.box
+::before
+::after
+
+.box::before{
+	contnet:"";
+	display:block;// tạo khối như div
+	thuộc tính css ...
+}
+
+::first-letter // kí tự đầu tiên
+
+::first-line	// dòng đầu tiên
+
+::selection	// style khi bôi đen trước đó không có class hoặc id 
+thì sẽ bị style cho thẻ html
+

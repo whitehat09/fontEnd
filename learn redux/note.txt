@@ -1,0 +1,10 @@
+npx create-react-app my-app
+
+---------------
+yarn add redux react-redex
+
+npm i react-redux( có thể ) cài yarn
+npm i redux
+npm i - g yarn
+
+tạo thư mục store

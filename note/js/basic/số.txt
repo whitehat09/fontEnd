@@ -1,0 +1,10 @@
+var a = 4 nên  number
+	
+var a = new Number(9) // đối tượng obj
+
+isNaN() // hàm check số
+toString() đổi sang chuỗi
+
+typeof biến 
+
+5.5toFixed(2) làm tròn 2 số sau dấu phẩy

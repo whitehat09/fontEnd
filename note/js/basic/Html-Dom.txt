@@ -1,0 +1,13 @@
+có 3 thành phần
+
+thành phần thẻ element
+
+attribute thuộc tính trong thẻ
+
+text chữ
+
+document-thẻ-thẻcon-...-arr
+		       |
+		      text
+
+ thêm, sửa xoá html

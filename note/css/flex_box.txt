@@ -1,0 +1,40 @@
+code minh hoạ ( vào đây trước)
+https://codepen.io/enxaneta/full/adLPwv/
+
+sử dụng flex
+display: flex | inline-flex 
+// inline-flex cùng hàng ngoại tuyến , flex chỉ ngang bên trong
+flex-direction: row | column | column-reverse | row-reverse
+// display dùng flex mặc định là row nằm ngang , column nằm dọc , dọc đảo ngược , ngang đảo ngược
+flex-wrap: nowrap | wrap | wrap-reverse
+// giá trị đàu tiên mặc định không xuống dòng
+wrap là xuống dòng dưới
+wrap-reverse lên dòng trên
+
+flex-basis:<length> // xét kích thước
+justify-content:flex-start | flex-end | center | space-between | space-around | space-evenly
+// dùng để căn lên trên, xuống dưới, flex-item  cách  nhau
+, mỗi item cách đều 2 bên 1 khoảng  các space bằng nhau
+và xét cho toàn bộ item
+justify-self: flex-start | flex-end | center
+như trên xét cho con đầu , cuối  giữa 
+align-content:flex-start | flex-end | center
+dùng cho flex item cha 
+align-self: flex-start | flex-end | center
+dùng cho flex item con căn dọc mặc định , đảo chiều , căn giưuax
+flex-grow:<number>
+// kích thước flex item nở ra
+flex-shrink:<number>
+//kích thước flex item nhỏ lại
+flex:<number> // cú pháp viết ngắn , điền 1 sẽ full flex container
+order:<number>//  thứ tự hiển thị dùng cho flex-item
+
+flex-basis:< giá trị mỗi flex-item>
+
+có thể căn giữa cả trên dưới khi có 1 itme-flex margin: auto;
+
+flex-flow: <flex-direction>  <flex-warp>
+
+
+ví dụ
+https://www.youtube.com/watch?v=G19jZzK5FWI&list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz&index=35

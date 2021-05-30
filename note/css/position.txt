@@ -1,0 +1,18 @@
+
+
+Vị trí
+position : 
+relative ; vị trí tương đối 
+(lấy mình là gốc toạ độ có thể di chuyển đè lên layouts có thể dùng thêm top right ... )
+
+
+absolute ; vị trí tuyệt đối
+(lấy thẻ cha có thuộc tính position là gốc toạ độ relative )
+
+
+fixed ; vị trị phụ thuộc vào khung trình duyệt
+
+sticky giống menu bám dính bình thường phải dùng js ; ( ít trình duyệt hỗ trợ )
+
+muốn xử lý layouts phủ kín layouts cha thì không đặt width và height
+cho thêm 4 thuộc tính top left right bottom

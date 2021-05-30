@@ -1,0 +1,16 @@
+Math.PI số pi
+
+Math.round() làm tròn số
+
+Math.abs() giá trị tuyệt đối 
+
+Math.ceil() làm tròn trên
+
+Math.floor() làm tròn dưới
+
+Math.random() số ngẫu nhiên 0-1
+
+Math.min(1,2,3) lấy số nhỏ nhất
+
+Math.max() lấy số lớn nhất
+

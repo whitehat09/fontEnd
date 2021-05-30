@@ -1,0 +1,6 @@
+root:nth-child(3) phần tử con số 3
+root:nth-last-child(3) phần tử con số 3 ngược lại
+
+root:last-child cuối cùng
+
+root:first-of-type còn root đầu tiền

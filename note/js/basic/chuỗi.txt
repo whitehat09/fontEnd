@@ -1,0 +1,30 @@
+var chuoi = '';c1 nên 
+var chuoi = new String();c2 tạo ra obj
+
+'effffffff\'ff\' '// muốn thêm ' thì thêm \ vô trước
+
+\\; kq ra \
+
+1 dòng nên 80 kí tự
+
+` ${bien-chuoi}+${bien-chuoi} ` // + chuỗi kiểu es6
+
+a.indexOf('a',vị trí tìm kiếm) // tìm kiếm chuỗi
+lastIndexOf // chuỗi cuối cùng
+không có sẽ trả về -1
+
+search() giống indexOf nhưng không truyền vào vị trị được
+
+slice(vị trí bắt đầu, vị trí kết thúc) // cắt chuỗi
+
+replace("a",'b') thay thế chuỗi có a thành b chữ đầu tiên tìm thấy
+replace(/a/g,'b')thay thế chuỗi có mọi a thành b
+/a/g gọi là biểu thức chính quy
+
+toUpperCase() tất cả thành hoa
+toLowCase() ngược lại
+trim() loại bỏ khoảng trắng thừa ở đầu cuối
+split('điểm chung để cắt điểm chung sẽ bị laoij bỏ') cắt chuỗi vào mảng 
+
+charAt(vị trí muốn lấy ) 
+[vị trí muốn lấy] 

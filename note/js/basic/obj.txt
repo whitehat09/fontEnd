@@ -1,0 +1,21 @@
+delete obj.key muốn xoá ;
+
+boj={
+	name,
+	this.name=''
+}// this ở đây là obj
+
+trong obj thường sẽ là key (thuộc tính)
+nhưng value của nó là function thì gọi là phương thức
+
+Object constructor quy ước chung viết hoa chữ cái đầu
+
+function u1( a,b,c) {
+	this.a=a;
+	this.b=b;
+	this.c=c;
+}
+
+var a = new u1('d','v','v') //làm giống đối tượng
+tạo thêm thuộc tính 
+a.ttm='thuộc tính mới';

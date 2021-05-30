@@ -1,0 +1,6 @@
+px 
+1 % = 1 % thẻ chứa nó 
+1 rem = kích cỡ thẻ html
+1 em = kích cỡ ( thuộc tính ) thẻ cha 
+1 vw = 1 % chiều ngang trình duyệt
+1 vh = 1 % chiều dọc của trình duyệt 

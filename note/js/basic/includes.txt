@@ -1,0 +1,2 @@
+.includes('kí tự tìm kiếm ' , 'vị trí bắt đầu tìm'
+với chuỗi là kí tự mảng là phần tử mặc định là 0

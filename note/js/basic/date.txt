@@ -1,0 +1,5 @@
+var date =  new Date(); tạo bằng new mới dùng được phương thức 
+var yaer = date.getFullYear(); năm
+var month = data.getMonth() +1 ; vì tháng trong ngà tính từ 0-11
+var day = date.getDate();ngày
+getHours() giờ ....

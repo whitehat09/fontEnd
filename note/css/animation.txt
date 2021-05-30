@@ -1,0 +1,19 @@
+
+container{
+	animation: <tên animation> <kiểu animation> <thời gian >;//0.5s
+
+}
+// kiểu animation
+ease-in  chậm  nhanh
+ease-in nhanh chậm
+ease-in-out chậm nhanh chậm
+@keyframes <tên animation> {
+	from {
+		thuộc tính bắt đầu 
+	}
+	to {
+		thuộc tính kết thúc
+	}
+}
+
+
