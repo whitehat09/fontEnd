@@ -1,13 +1,73 @@
 có 3 thành phần
 
-thành phần thẻ element
-
-attribute thuộc tính trong thẻ
-
-text chữ
-
+-thành phần thẻ element
+-at tribute thuộc tính trong thẻ
+-text chữ
 document-thẻ-thẻcon-...-arr
 		       |
 		      text
-
  thêm, sửa xoá html
+
+Document bao toàn bộ trang hay lưu hết vào Document
+
+
+truy cập qua id class tên thẻ , css selector , html collection
+
+document.write('text');
+
+getElementById('id') //obj mô tả thẻ
+getElementsByClassName('class') // cho ra gần giống mảng vì không có phương thức mảng
+
+getElementsByTagName('TagName')
+
+querySelector('giống như gọi bên file css') // chỉ chọn 1 nếu bên chọn chọn nhiều thì nó sẽ chọn 1 cái đầu tiên
+querySelectorAll('')// có thể chọn hết
+
+.thẻ hỗ trợ collection . id của thẻ đó// k hay dùng
+ul li 
+a=querySelector('ul') 
+a.querySelector('li')/// không áp dụng  với html collection
+
+trả về trực tiếp element thì chỉ có id với querySelector còn lại sẽ trả về collection chỉ chứa element
+còn nếu vẫn muốn lấy thì truyền index như mảng
+querySelectorAll sinh ra nodelist có thể chứ bất kì nút nào 
+Dom chạy chạy hết khi chạy đến tag cuối cùng html 
+add att 
+lấy được element
+element.tênatt = giá trị attrr;// seter
+
+hoặc element.setSttribute('tên thuộc tính','giá trị thuộc tính')
+cách trên đặt mọi thuộc tính không phụ thuộc vào thẻ ví dụ p không có src nhưng cách trên vẫn thêm được
+
+element.getSttribute('cách xd element vd id class, thuộc tính')
+get cả value hoặc thuộc tính
+
+element.att // với những thuộc tính hợp lệ 
+ 
+text------------
+innerText vs textContent
+inner giống hiển thị html
+textContent cũng bỏ qua html nhưng hiển thị text lúc gõ code trong file html ( bỏ qua cả att trong thẻ ) trả về tất cả text trong element
+
+thêm element------
+innerHTML , outerHTML thuộc tính của element node
+element.innerHTML = '<p>ff</p>'
+
+ul li nếu chon element là ul
+inner lấy li 
+outer lấy cả ul li
+ 
+thềm css dom --------
+element.style.attcss= 'giá trị '  camelCase cú pháp viết như js đầu viết thường sau viến hoa backgroundPosition
+
+viết nhiều css 
+object.asign(element.style,{
+	key:'value',
+	key:'value',...
+})
+
+element.classList.att
+add thêm class
+contains kiểm tra class có nằm trong element hay k
+remove xoá class
+toggle không có thì sẽ thêm , nếu có thì sẽ gỡ bỏ 

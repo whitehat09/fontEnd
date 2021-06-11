@@ -1,6 +1,6 @@
 for lặp với điều kiện đúng 
-for/in lặp qua key của đối tượng ( obj )
-for/of lặp qua value của đối tượng ( mảng )
+for/in lặp qua key của đối tượng thường obj 
+for/of lặp qua value của đối tượng thường mảng
 while lặp khi điều khiện đúng
 do while lặp ít nhất 1 lần sau đó lặp khi điều kiện đúng
 

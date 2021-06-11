@@ -1,0 +1,35 @@
+hành vi lên web
+và hành vi trình duyệt
+-- attribute events lắng nghe sự kiện 
+
+click ấn vào 
+change có thay đổi ví dụ như nhập text vô input
+copy 
+dblclick ấn chuột 2 lần 
+cut
+focusin tập trung con trỏ chuột ...
+keydown ấn phím xuống
+keyup ấn xong thả ra
+mouseover hover trong css
+mouseiut đưa chuột ra vùng hover
+resize thay đổi kích thước trình duyệt
+scroll kéo lăn chuột
+...
+thêm on đằng trước 
+onclick="console.log(this)"// this hiển thị ra node elements cha
+
+-- assign event using the element node gán sự kiện
+chọn element tạo thẻ đó 
+element.att_events = dunction(){}
+ví dụ element.onclick=function(){}
+
+mouseEvents là các trường hợp xả ra khi lắng nghe sự kiện
+
+dùng vòng lặp có lưu ý là vòng lặp chạy hết rồi mới tới e 
+nên sử dụng let trong for hoặc e.target các trường hợp sau khi có sự kiện
+PreventDefault and StopPropagation---------------------------
+lấy elements = function(e){
+	// e.PreventDefault() // dừng hành vi mặc định
+
+	//e.StopPropagation()// ngăn chặn nổi bọt nhâos vào con chỉ ra con không ra cha nữa
+}

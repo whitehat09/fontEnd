@@ -1,0 +1,14 @@
+tìm  element 
+element.addEventListener('event bỏ on',function(e){
+	callback khi event xảy ra
+})
+
+element.removeEventListener('event bỏ on',function(e){
+	callback khi event xảy ra
+})huỷ bỏ
+
+gán 1 function 
+
+gọi và xử lý nhiều việc 
+
+rõ nghĩa hơn
