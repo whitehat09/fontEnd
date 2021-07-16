@@ -1,0 +1,20 @@
+
+
+example
+var mouse = {
+	name:'Mickey',
+	sayHi: function (){
+		console.log('sss', this.name);
+}
+};
+
+mouse.sayHi();// call như này this vẫn trỏ vào mouse
+
+var say=mouse.sayHi;
+say(); // call như này this trỏ vào cha ngoài của cùng web là window this trả về undefined
+
+
+khắc phục
+var say=mouse.sayHi.bind(mouse);// tạo ra function đầu vào là mouse
+
+bind(tham số được this trỏ vào) 

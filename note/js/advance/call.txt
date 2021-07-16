@@ -1,0 +1,20 @@
+function.call
+
+function aa(name){
+	console.log(` ${this.name}`);
+}
+
+aa.call(context của hàm đó , tham số truyền vào ...);
+
+gần giống bind 
+
+khác nhau bind tạo ra 1 hàm rồi gọi
+
+còn call gọi hàm đấy trả về giá trị hàm đấy trả về 
+
+var c = {name:'dfdfdf'}
+aa.call(c);
+
+không có truyền null ( nếu hàm đó không dùng this )
+
+aa.call(null)

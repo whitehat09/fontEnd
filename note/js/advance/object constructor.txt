@@ -1,0 +1,10 @@
+Object constructor tạo bản thiết kế cho đối tượng
+
+quy ước chung viết hoa chữ cái đầu
+
+function User ( firstName,lastName,avatar){
+	this.firstName=firstName;
+	this.lastName=lastName;
+	this.avatar=avatar;
+}
+var author = new User('a','Nguyễn','avatar');// dùng new

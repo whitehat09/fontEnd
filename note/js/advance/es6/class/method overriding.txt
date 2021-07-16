@@ -1,0 +1,17 @@
+method overriding   ( class)
+
+phương thức ghi đè
+
+class a {
+	run(){
+	console.log('a')
+}
+}
+
+class ab extends a {
+	run(){
+	console.log('....')
+}
+}
+var cc = new ab()
+cc.run();

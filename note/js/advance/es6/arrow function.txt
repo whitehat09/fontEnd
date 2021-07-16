@@ -1,0 +1,26 @@
+arrow function ( hàm mũi tên )
+
+() => {} có return
+
+() => ({})// return về obj
+param => kết quả trar về
+
+arrow function không có this
+
+a => a*a;
+(a,b) => a+b;
+
+arrow không có context
+
+var a = {
+
+	name:'b',
+	title: function(){
+	()=>{
+	console.log(this.name)} // lấy context của title
+}
+}
+}
+
+// khắc phục có that = this
+bind(a) hoặc bind(this)

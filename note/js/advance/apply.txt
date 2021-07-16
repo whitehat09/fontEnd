@@ -1,0 +1,5 @@
+apply: 
+
+function.apply(context , [param,...])
+
+param có thể là array hoặc array like object

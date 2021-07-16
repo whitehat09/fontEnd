@@ -1,0 +1,3 @@
+Higer order functions
+
+fun có tham số là 1 hàm

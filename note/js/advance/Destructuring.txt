@@ -1,0 +1,9 @@
+Destructuring gỡ bỏ cấu trúc
+
+array  =[1,2,3]
+
+
+
+const  [a,b,c]= array // có thể đổi tên khác 
+console.log(b )// 2
+tương thự như object

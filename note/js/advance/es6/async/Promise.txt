@@ -1,0 +1,29 @@
+Promise lời hứa sử dung xử lý bất đồng bộ
+trước dùng callback nhưng dễ bị callback hell 
+dài khó hiểu
+
+ // là 1 obj
+var a = new Promise(
+	// executor
+	function(resolve,reject){// 2 tham số đêu là hàm
+
+	//logic
+	// thành công: resolve()
+	// thất bại :  reject()
+	resolve();
+}	
+);
+gọi new Promise ngya lập tức sẽ chạy hàm bên trong 
+promise có 3 phương thức tham số là callback
+
+.then(()=>console.log('tc'))// khi thành công
+.then(()=>console.log('tc'))
+.catch((err)=>console.log('tb')) // khi thất bại 
+.finally(()=>console.log('don'))// thành công hoặc thất bại khi xong
+
+//then sau nhận return then trước miễn sao không phải promise
+// nếu không retun hoặc return new promise thì then sau là undefind
+
+Promise.resolve tạo tạo promise tc
+Promise.reject tạo tạo promise tb
+Promise.all(...promise)// chạy song song promise vẫn nhận data

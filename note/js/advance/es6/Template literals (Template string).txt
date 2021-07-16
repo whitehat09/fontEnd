@@ -1,0 +1,15 @@
+thay vì công chuỗi 
+
+~ ${biểu thức chứa giá trị trả về }  dfdf...  ~
+
+viết 1 \ 
+phải viết 2 lần \\
+hiển thị ${} thêm \ 
+\${}
+muốn viết nhiều dòng thì xuống dòng \n
+hoặc
+~line1
+line2
+line3
+~ // tự hiểu để xuống dòng
+run tênhàm`chuỗi tham số truyền vào`

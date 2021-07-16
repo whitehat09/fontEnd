@@ -1,0 +1,38 @@
+iife immediately invoked function expression( biêns = fun )
+ function expression được run ngay lập tức
+arrow cũng là 1 expression
+chạy ngay lập tức tạo vào gọi ngay lập tức
+
+c1: phổ biến 
+ (function(){})() 
+c2 
+	toán tửfunction(){}()
+
+ bắt buộc phải đóng kết thúc bằng ; trước iife
+nếu không theo trường phái ; thì có thể ; đằng trước iife ;()
+
+ iife là hàm 'private' gọi được 1 lần lúc đinh nghĩa và gọi trong phạm vị hàm 
+
+ private hoặc tránh biến toàn cục , bảo mật / đóng gói để toàn vẹn data
+
+example
+
+const app = (() => {
+	// private
+	const cars =[];
+	// public trong return
+	return {
+		get(index) {
+			return car[index];
+		},
+		add(car) {
+			cars.push(car)
+		},
+		edit(index,car){
+			cars.push(car)
+		},
+		delete(index){
+			cars.splice(index,1)
+		}
+	}
+})();

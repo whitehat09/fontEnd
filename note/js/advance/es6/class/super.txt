@@ -1,0 +1,22 @@
+
+class a {
+	constructor(name){
+	this.name=name;
+}
+	function fun(){
+	console.log('sdsd')	
+}
+}
+class ab extends a {
+	constructor(name,weight){ // nếu không thay đổi không phải tạo lại
+	super(name);// không phải tạo lại  khi cha có rồi 
+	this.weight=weight;
+}
+
+	function fun(){
+	super.fun();
+
+	// thêm định nghĩa	
+	console.log('sds6d')
+}
+}

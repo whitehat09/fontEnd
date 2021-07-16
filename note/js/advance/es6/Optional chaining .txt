@@ -1,0 +1,4 @@
+Optional chaining (?.)kiểm tra xem có tồn tại không
+
+obj?.cat // kiểm tra cat có trong obj hay không
+không chỉ mỗi obj

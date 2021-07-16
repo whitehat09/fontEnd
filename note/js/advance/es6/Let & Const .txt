@@ -1,0 +1,31 @@
+var , let , const khai báo biến
+
+var / let , const
+khác nhau ở phạm vi truy cập Scope ,Hosting
+
+Const / Var , Let 
+khác nhau ở assignment gán lại giá trị . const hằng không thể gán lần thứ 2
+
+code block : khối code trong if else loop ... {}
+
+exmaple 
+{
+	kiểu temp ='a';
+}
+console.log(temp)
+kiểu var output là a
+
+kiểu let, const undefined chưa xác đinh
+bên ngoài block không truy cập được
+ưu tiên định nghĩa gần nhất
+
+Hosting ( đưa lên đầu ) var được hỗ trợ
+
+
+
+a=1 // dòng 2
+var a; // ở dòng 100 đưa lên đầu trang từ 1 
+// dùng let  lỗi không truy cập dùng const thiếu định nghĩa 
+
+const let khai báo được 1 lần
+khai báo const phải gán giá trị

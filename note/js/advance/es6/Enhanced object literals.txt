@@ -1,0 +1,16 @@
+2 cách tạo obj
+dùng constructor function khởi tạo bằng new
+
+dùng object literal
+
+Enhanced object literals - es6
+
+example
+const name='tom'
+const cat = {
+	name,// name:name
+	run(){
+	console.log('fdf')
+}	
+}
+cat.run();

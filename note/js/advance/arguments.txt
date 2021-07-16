@@ -1,0 +1,18 @@
+biến , tham số  nằng trong function trừ arrow ra 
+
+biến đấy là 1 object dạng giống như mảng array-like object
+
+example
+
+var a = {
+	0:'dfd',
+	1:'dfdf',
+	2:'dfdf,
+	length:3
+};
+
+muốn dùng method như array
+
+chuyển arry like object về array
+
+Array.from(arguments)

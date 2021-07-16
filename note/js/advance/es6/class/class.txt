@@ -1,0 +1,54 @@
+function Mouse(name){
+	this.name=name;
+}
+
+Mouse.prototype.run = function(){
+	console.log(`${this.nảme}`
+}
+
+--------class
+
+class Mouse {
+		constructor(name){
+	this.name=name;
+}
+	run(){
+	console.log(`${this.nảme}`)
+}
+}
+
+const mouse = new Mouse('dfdf');
+mouse.run();
+class inheritance thừa kế 
+
+class Animal{// class cha
+		constructor(name){
+	this.name=name;
+}
+	eat(){
+	console.log('ffgfg)
+}
+}
+
+class Bird extends Animal{// class con
+		
+	fly(){
+	console.log('ffgfg)
+}
+}
+const bird = new Bird('tên chim')
+bird.fly();
+
+viết bằng hàm
+
+------
+function Animal(name){
+	this.name = name;
+}
+Animal.prototype.eat=function(){
+	console.log('dfd')
+}
+function Bird(name){
+	Animal.apply(this,argumants);
+}
+bird.prototype=new Animal();

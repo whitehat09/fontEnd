@@ -1,0 +1,19 @@
+
+
+example
+class Foo {
+	static someMethod(){
+		console.log('some method);
+	}
+	antherMethod(){
+		console.log('anther method);
+	}
+	
+}
+
+// static được gọi từ chính class đó tức là không dùng new
+
+Foo.someMethod();
+
+const foo = new Foo(); // instance
+foo.antherMethod();

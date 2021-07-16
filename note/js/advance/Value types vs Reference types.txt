@@ -1,0 +1,10 @@
+Value types vs Reference types
+
+let a1=1;
+let a2=1;
+console.log(a1===a2)// true giá trị được gán 
+// còn với obj khi so sánh sẽ là địa chỉ vòng nhớ nên sẽ false
+
+điều đó cũng đúng khi gán 
+không nên thay đổi obj hay mảng đầu vào
+

@@ -1,0 +1,10 @@
+
+hàm đã chạy thì biến vẫn được lưu và chuwa giải thoát hết 
+
+function d(name){
+	return function(str){
+	console.log(name+str)
+}
+}
+const log = dd('a');
+log('b')// output ab

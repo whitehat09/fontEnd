@@ -1,0 +1,12 @@
+scope phạm vi hoạt động 1 biến
+
+example
+
+var a=8 ;//global scope
+
+function b(){
+	var b = 5;//local scope
+	console.log(b);
+}
+
+trong local có thể thay thế biến trong global ( gán lại )

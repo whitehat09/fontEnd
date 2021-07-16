@@ -1,0 +1,15 @@
+import a from '.b.js'
+
+thêm trong html thêm atr type='module'
+
+chia sẻ ra ngoài 
+
+export default a;// 1 lần
+
+export thường thì 
+
+import {a } from 'b.js';
+
+lấy tất cả export trong file a
+import *as obj from 'a.js';
+obj chứa tất cả export

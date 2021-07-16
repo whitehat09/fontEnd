@@ -1,0 +1,16 @@
+rest phần còn lại
+là 1 mảng
+function ( ...rest){}
+thường dùng khi không biết tham số có bao nhiêu hay hơn agrument
+
+let a = [1,2,3]
+let b =[0,...a,4] trả về các thành phần mảng
+// output 0 , 1,2,3,4
+
+
+Spread bỏ {} lấy key bên trong
+obj1 ={}
+
+obj2{
+	...obj,
+}
