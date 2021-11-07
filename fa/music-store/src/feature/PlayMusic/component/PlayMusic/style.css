@@ -1,0 +1,31 @@
+.play-music{
+    position: fixed;
+    top:93%;
+    width: 39%;
+    z-index: 3;
+}
+audio
+{
+    width: 100%;
+    flex: 0 50%;
+    background: rgba(255, 255, 255, 0.938);
+    border-radius: 36px;
+    position: relative;
+    z-index: 4;
+    overflow: hidden;
+    transition: 0.8s;
+    -moz-box-shadow: 10px 10px 10px 0px #006773;
+    -webkit-box-shadow:  10px 10px 10px 0px #006773;
+    box-shadow: 10px 10px 10px 0px #006773;
+}
+audio:hover{
+    background: #309af0e5;
+    color: #fff;
+    transform: scale(1.039);
+    z-index: 5;
+    -webkit-box-shadow: 15px 15px 20px rgba(82, 75, 75, 0.596);
+    -moz-box-shadow: 15px 15px 20px rgba(82, 75, 75, 0.596);
+    box-shadow: 15px 15px 20px rgba(82, 75, 75, 0.596);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+}

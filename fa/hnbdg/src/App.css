@@ -1,0 +1,126 @@
+.page-item {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.page-active {
+  background: #5488c7;
+  color: #fff;
+}
+.loading-div {
+  height: 100px;
+}
+.text-editor {
+  min-height: 100px;
+}
+
+.icon-eye {
+  position: absolute;
+  top: 64%;
+  right: 8%;
+}
+.icon-eye:hover .icon-eye-signup:hover {
+  color: #00fcb6;
+  cursor: pointer;
+}
+
+.icon-eye-signup {
+  position: absolute;
+  top: 71%;
+  right: 8%;
+}
+
+.home-page .banner {
+  background: #5488c7;
+}
+
+.error {
+  color: red;
+}
+a {
+  color: #5488c7;
+  text-decoration: none;
+}
+.nav-pills.outline-active .nav-link.active {
+  background: #fff !important;
+  border-bottom: 2px solid #5488c7 !important;
+  color: #5488c7 !important;
+}
+.navbar-brand {
+  color: #5488c7 !important;
+}
+
+.btn-outline-primary {
+  color: red;
+  background-image: none;
+  background-color: transparent;
+  border-color: #5488c7;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #5488c7;
+  border-color: #5488c7;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5488c7;
+  border-color: #5488c7;
+}
+
+.btn-primary:hover {
+  color: red;
+  background-image: none;
+  background-color: transparent;
+  border-color: #5488c7;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: #5488c7;
+  border-color: #5488c7;
+}
+
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active {
+  color: #fff;
+  background-color: #5488c7;
+  border-color: #5488c7;
+}
+.banner {
+  background: #5488c7;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 12px;
+  left: 90%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #5488c7;
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+}
+.scroll-to-top .icon {
+  margin-top: 10px;
+  animation: scrollTop 0.5s alternate ease infinite;
+}
+@keyframes scrollTop {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-1px);
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}

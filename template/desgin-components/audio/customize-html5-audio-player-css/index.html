@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Custom HTML5 Audio Player Example</title>
+    <meta name="author" content="Codeconvey" />
+    <link rel='stylesheet' href='https://icono-49d6.kxcdn.com/icono.min.css'>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+            <!-- AD -->
+        </div>
+        <div class="col-rt-2">
+            <ul>
+                <li><a href="https://codeconvey.com/customize-html5-audio-player-css">Back to Tutorial</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+            	<h1>Custom HTML5 Audio Player Example</h1>
+                <p>A custom HTML5 audio player with CSS.</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+         
+           <!-- partial:index.partial.html -->
+                  <center>
+<audio controls>
+  <source src="./backsound.mp3"  type="audio/mp3">
+</audio> 
+                      </center>
+<div style="width: 50px; height: 50px;"></div>
+<div class="audio-player" style="margin: 0 auto">
+  <div class="timeline">
+    <div class="progress"></div>
+  </div>
+  <div class="controls">
+    <div class="play-container">
+      <div class="toggle-play play">
+    </div>
+    </div>
+    <div class="time">
+      <div class="current">0:00</div>
+      <div class="divider">/</div>
+      <div class="length"></div>
+    </div>
+    <div class="name">Music Song</div>
+<!--     credit for icon to https://saeedalipoor.github.io/icono/ -->
+    <div class="volume-container">
+      <div class="volume-button">
+        <div class="volume icono-volumeMedium"></div>
+      </div>
+      
+      <div class="volume-slider">
+        <div class="volume-percentage"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+        
+  <script  src="js/player.js"></script>
+           
+    		</div>
+		</div>
+    </div>
+</section>
+     
+
+<!-- Analytics -->
+
+	</body>
+</html>

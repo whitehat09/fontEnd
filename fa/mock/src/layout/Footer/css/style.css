@@ -1,0 +1,19 @@
+.footer-page{
+   
+    background: #ffffff;
+}
+.section__icon {
+    border-radius: 50%;
+    padding: 8px;
+    color: white;
+    background-color: #6143b8;
+    margin-right: 5px;
+}
+.section__icon__fb {
+    border-radius: 50%;
+    padding: 8px 11px;
+    color: white;
+    /* background-color: #343a40; */
+    background-color: #0084ff;
+    margin-right: 5px;
+}

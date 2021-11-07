@@ -1,0 +1,6 @@
+npm i -g firebase-tools // chạy firebase khi dev
+firebase login
+firebase init
+
+firebase emulators:start
+

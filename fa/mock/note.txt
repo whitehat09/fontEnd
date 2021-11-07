@@ -1,0 +1,13 @@
+ npm install --save  firebase 
+
+npx create-react-app my-app --template redux-typescript
+
+npm i react-router-dom
+npm i @types/react-router-dom
+npm i redux-saga
+npm i axios
+npm i formik
+npm i moment
+npm i yup
+
+npm install @mui/material

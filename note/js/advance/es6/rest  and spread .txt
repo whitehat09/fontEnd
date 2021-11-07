@@ -1,5 +1,4 @@
-rest phần còn lại
-là 1 mảng
+rest phần còn lại là 1 mảng
 function ( ...rest){}
 thường dùng khi không biết tham số có bao nhiêu hay hơn agrument
 

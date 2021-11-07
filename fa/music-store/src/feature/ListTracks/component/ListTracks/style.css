@@ -1,0 +1,17 @@
+.list-group-tracks{
+    background-color: #202224;
+    color: white !important;
+    border: none!important;
+    border-radius: 6px;
+}
+.list-group-tracks:hover{
+    background-color: #45494d;
+    
+}
+.list-tracks{
+    margin-bottom: 100px;
+}
+.list-img-tracks{
+    width: 40px;
+    height: 40px;
+}
