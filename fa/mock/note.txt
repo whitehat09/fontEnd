@@ -11,3 +11,5 @@ npm i moment
 npm i yup
 
 npm install @mui/material
+
+npx create-react-app truck-app --template redux-typescript
